@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "hermpoint-datagov_jd484"
+name = "hermpoint-multinode_bandwidth_bottleneck_length_profile"
 version = "0.1.0"
 description = "按段落统计数据治理与血缘专家·多机通信的带宽瓶颈相关的长度分布，标出过长、过短与重复表达的部分"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://hermpoint.github.io"
-Repository = "https://github.com/hermpoint/datagov_jd484"
-Issues = "https://github.com/hermpoint/datagov_jd484/issues"
+Repository = "https://github.com/hermpoint/multinode_bandwidth_bottleneck_length_profile"
+Issues = "https://github.com/hermpoint/multinode_bandwidth_bottleneck_length_profile/issues"
 
 [project.scripts]
-datagov_jd484 = "datagov_jd484:main"
+multinode_bandwidth_bottleneck_length_profile = "multinode_bandwidth_bottleneck_length_profile:main"
 
 [tool.setuptools]
-py-modules = ["datagov_jd484"]
+py-modules = ["multinode_bandwidth_bottleneck_length_profile"]
